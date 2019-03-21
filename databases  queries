@@ -1,0 +1,22 @@
+====databases  queries======
+
+create database dbname;  ----create database
+
+use dbname;               ----connect to datbase
+
+show tables;		---- show the tables
+
+select *from owners;    --- to show the owners lsit
+
+drop database dbname;     ----delete database
+
+create table tablename (id integer,name varchar(30), salary integer);   ---- to create table
+
+insert into tablename values(1, mahesh, 50000);  ---information insert into table
+
+select * from table;     -----select table
+
+alter database dbname renameto newdbname;   ---- rename to database name
+
+update tablename set id=5 where name =mahesh    ---to update inside table
+
